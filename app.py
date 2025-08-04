@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, send_from_directory, redirect
 from pydub import AudioSegment
 
 app = Flask(__name__)
-app.secret_key = 'rahasia123'
+app.secret_key = 'wano'
 
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'output'
